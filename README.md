@@ -1,1 +1,3 @@
-
+# LẬP TRÌNH PYTHON NÂNG CAO 
+Họ tên: Nguyễn Minh Phúc
+MSSV : 2274802010683
