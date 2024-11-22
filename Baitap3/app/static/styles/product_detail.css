@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo and Navbar */
+.row {
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+/* Search Form */
+.search-form-container {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+}
+
+#search-box {
+    border-radius: 30px;
+    padding: 8px 20px;
+    width: 100%;
+}
+
+/* Button Styles */
+.btn-warning {
+    background-color: #5b90d9;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 4px; /* Pushes the button down by 10px */
+}
+
+
+.btn-warning:hover {
+    background-color: rgb(46, 141, 208);
+}
+
+/* Main Section */
+.wrapper {
+    padding: 20px;
+}
+
+/* CSS cho phần chi tiết sản phẩm */
+.product-frame {
+    width: 80%; /* Chiều rộng 80% màn hình */
+    margin: 0 auto; /* Canh giữa */
+    padding: 20px; /* Khoảng cách nội dung */
+    background-color: #fff; /* Nền trắng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng đổ nhẹ */
+    border-radius: 8px; /* Bo góc */
+    text-align: center; /* Canh giữa nội dung */
+    margin-top: 50px; /* Khoảng cách trên */
+    display: flex;
+    flex-direction:row;
+}
+
+/* Tiêu đề sản phẩm */
+.product-frame h1 {
+    font-size: 2.5rem; /* Kích thước chữ tiêu đề */
+    font-weight: bold; /* Chữ đậm */
+    color: #333; /* Màu chữ */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+/* Ảnh sản phẩm */
+.product-frame img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+    border-radius: 8px; /* Bo góc ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng đổ */
+    margin-bottom: 20px; /* Khoảng cách dưới ảnh */
+}
+
+/* Giá sản phẩm */
+.product-frame p {
+    font-size: 1.2rem; /* Kích thước chữ cho giá */
+    color: #88ea57; /* Màu vàng cho giá */
+    font-weight: bold; /* Chữ đậm */
+    margin-bottom: 10px; /* Khoảng cách dưới giá */
+}

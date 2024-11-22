@@ -1,0 +1,11 @@
+INSERT INTO users (user_name, user_password, user_role, user_email, user_phone)
+VALUES ('example_name', 'example_password', '1', 'exampleemail@gmail.com', '012345');
+
+INSERT INTO users (name, price, img)
+VALUES ('example_name', '50000', '1');
+
+login/ logout -> check role -> admin/user -> admin: show danh sách table: sản phẩm, người dùng
+user: show danh sách sản phẩm
+
+
+phần danh sách table: thêm, chỉnh sửa, xóa các sản phẩm, người dùng
